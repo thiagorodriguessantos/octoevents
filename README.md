@@ -43,7 +43,7 @@ create database octoevents
 ```bash
 cd octoevents
 mvn package
-java -jar target/octoevents-0.0.1-Final.jar
+java -jar -Dfile.encoding=UTF8 target/octoevents-0.0.1-Final.jar
 ```
 
 You can also run the app without packaging it using -
